@@ -15,3 +15,6 @@ Sample app demonstrating Core Data and WatchKit integration. This simple app is 
 6. Move core data access code into the shared framework; make classes and methods public
 7. Add the Core DataModel to the Extensions Compiled Resources
 
+## Video Walkthrough
+
+If you'd like to watch me create this app in 10 minutes, then check it out here: http://youtu.be/-vR0d7jTuxo 
