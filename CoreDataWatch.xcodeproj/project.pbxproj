@@ -15,6 +15,20 @@
 		DD92DF861A23FD50000D8539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD92DF851A23FD50000D8539 /* Images.xcassets */; };
 		DD92DF891A23FD50000D8539 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD92DF871A23FD50000D8539 /* LaunchScreen.xib */; };
 		DD92DF951A23FD50000D8539 /* CoreDataWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92DF941A23FD50000D8539 /* CoreDataWatchTests.swift */; };
+		DD92DFA51A23FD7A000D8539 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92DFA41A23FD7A000D8539 /* WatchKit.framework */; };
+		DD92DFAA1A23FD7A000D8539 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92DFA91A23FD7A000D8539 /* InterfaceController.swift */; };
+		DD92DFAC1A23FD7A000D8539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD92DFAB1A23FD7A000D8539 /* Images.xcassets */; };
+		DD92DFB01A23FD7A000D8539 /* CoreDataWatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = DD92DFAF1A23FD7A000D8539 /* CoreDataWatch Watch App.app */; };
+		DD92DFB71A23FD7A000D8539 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD92DFB61A23FD7A000D8539 /* Interface.storyboard */; };
+		DD92DFB91A23FD7A000D8539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD92DFB81A23FD7A000D8539 /* Images.xcassets */; };
+		DD92DFBC1A23FD7A000D8539 /* CoreDataWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DD92DFA21A23FD7A000D8539 /* CoreDataWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD92DFCE1A23FFE2000D8539 /* DataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD92DFCD1A23FFE2000D8539 /* DataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD92DFD41A23FFE2000D8539 /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92DFC91A23FFE2000D8539 /* DataKit.framework */; };
+		DD92DFDD1A23FFE2000D8539 /* DataKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92DFDC1A23FFE2000D8539 /* DataKitTests.swift */; };
+		DD92DFE01A23FFE2000D8539 /* DataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92DFC91A23FFE2000D8539 /* DataKit.framework */; };
+		DD92DFE11A23FFE2000D8539 /* DataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD92DFC91A23FFE2000D8539 /* DataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD92DFEC1A2401F8000D8539 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92DFEB1A2401F8000D8539 /* DataAccess.swift */; };
+		DD92DFED1A240671000D8539 /* CoreDataWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD92DF7B1A23FD50000D8539 /* CoreDataWatch.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +39,67 @@
 			remoteGlobalIDString = DD92DF731A23FD50000D8539;
 			remoteInfo = CoreDataWatch;
 		};
+		DD92DFB11A23FD7A000D8539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD92DF6C1A23FD50000D8539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD92DFAE1A23FD7A000D8539;
+			remoteInfo = "CoreDataWatch Watch App";
+		};
+		DD92DFBA1A23FD7A000D8539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD92DF6C1A23FD50000D8539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD92DFA11A23FD7A000D8539;
+			remoteInfo = "CoreDataWatch WatchKit Extension";
+		};
+		DD92DFD51A23FFE2000D8539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD92DF6C1A23FD50000D8539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD92DFC81A23FFE2000D8539;
+			remoteInfo = DataKit;
+		};
+		DD92DFD71A23FFE2000D8539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD92DF6C1A23FD50000D8539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD92DF731A23FD50000D8539;
+			remoteInfo = CoreDataWatch;
+		};
+		DD92DFDE1A23FFE2000D8539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD92DF6C1A23FD50000D8539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD92DFC81A23FFE2000D8539;
+			remoteInfo = DataKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD92DFC31A23FD7A000D8539 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD92DFBC1A23FD7A000D8539 /* CoreDataWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFE51A23FFE2000D8539 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD92DFE11A23FFE2000D8539 /* DataKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DD92DF741A23FD50000D8539 /* CoreDataWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +114,24 @@
 		DD92DF8E1A23FD50000D8539 /* CoreDataWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD92DF931A23FD50000D8539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD92DF941A23FD50000D8539 /* CoreDataWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataWatchTests.swift; sourceTree = "<group>"; };
+		DD92DFA21A23FD7A000D8539 /* CoreDataWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoreDataWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD92DFA41A23FD7A000D8539 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD92DFA81A23FD7A000D8539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD92DFA91A23FD7A000D8539 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DD92DFAB1A23FD7A000D8539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD92DFAF1A23FD7A000D8539 /* CoreDataWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreDataWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD92DFB51A23FD7A000D8539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD92DFB61A23FD7A000D8539 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		DD92DFB81A23FD7A000D8539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD92DFC91A23FFE2000D8539 /* DataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD92DFCC1A23FFE2000D8539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD92DFCD1A23FFE2000D8539 /* DataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataKit.h; sourceTree = "<group>"; };
+		DD92DFD31A23FFE2000D8539 /* DataKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD92DFDB1A23FFE2000D8539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD92DFDC1A23FFE2000D8539 /* DataKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataKitTests.swift; sourceTree = "<group>"; };
+		DD92DFE91A24002C000D8539 /* CoreDataWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CoreDataWatch.entitlements; sourceTree = "<group>"; };
+		DD92DFEA1A24006B000D8539 /* CoreDataWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "CoreDataWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		DD92DFEB1A2401F8000D8539 /* DataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD92DFE01A23FFE2000D8539 /* DataKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +147,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DF9F1A23FD7A000D8539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFA51A23FD7A000D8539 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFC51A23FFE2000D8539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFD01A23FFE2000D8539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFD41A23FFE2000D8539 /* DataKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +181,11 @@
 			children = (
 				DD92DF761A23FD50000D8539 /* CoreDataWatch */,
 				DD92DF911A23FD50000D8539 /* CoreDataWatchTests */,
+				DD92DFA61A23FD7A000D8539 /* CoreDataWatch WatchKit Extension */,
+				DD92DFB31A23FD7A000D8539 /* CoreDataWatch Watch App */,
+				DD92DFCA1A23FFE2000D8539 /* DataKit */,
+				DD92DFD91A23FFE2000D8539 /* DataKitTests */,
+				DD92DFA31A23FD7A000D8539 /* Frameworks */,
 				DD92DF751A23FD50000D8539 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +195,10 @@
 			children = (
 				DD92DF741A23FD50000D8539 /* CoreDataWatch.app */,
 				DD92DF8E1A23FD50000D8539 /* CoreDataWatchTests.xctest */,
+				DD92DFA21A23FD7A000D8539 /* CoreDataWatch WatchKit Extension.appex */,
+				DD92DFAF1A23FD7A000D8539 /* CoreDataWatch Watch App.app */,
+				DD92DFC91A23FFE2000D8539 /* DataKit.framework */,
+				DD92DFD31A23FFE2000D8539 /* DataKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +206,7 @@
 		DD92DF761A23FD50000D8539 /* CoreDataWatch */ = {
 			isa = PBXGroup;
 			children = (
+				DD92DFE91A24002C000D8539 /* CoreDataWatch.entitlements */,
 				DD92DF791A23FD50000D8539 /* AppDelegate.swift */,
 				DD92DF7E1A23FD50000D8539 /* MasterViewController.swift */,
 				DD92DF801A23FD50000D8539 /* DetailViewController.swift */,
@@ -118,7 +244,98 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DD92DFA31A23FD7A000D8539 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFA41A23FD7A000D8539 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD92DFA61A23FD7A000D8539 /* CoreDataWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFEA1A24006B000D8539 /* CoreDataWatch WatchKit Extension.entitlements */,
+				DD92DFA91A23FD7A000D8539 /* InterfaceController.swift */,
+				DD92DFAB1A23FD7A000D8539 /* Images.xcassets */,
+				DD92DFA71A23FD7A000D8539 /* Supporting Files */,
+			);
+			path = "CoreDataWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DD92DFA71A23FD7A000D8539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFA81A23FD7A000D8539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD92DFB31A23FD7A000D8539 /* CoreDataWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFB61A23FD7A000D8539 /* Interface.storyboard */,
+				DD92DFB81A23FD7A000D8539 /* Images.xcassets */,
+				DD92DFB41A23FD7A000D8539 /* Supporting Files */,
+			);
+			path = "CoreDataWatch Watch App";
+			sourceTree = "<group>";
+		};
+		DD92DFB41A23FD7A000D8539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFB51A23FD7A000D8539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD92DFCA1A23FFE2000D8539 /* DataKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFCD1A23FFE2000D8539 /* DataKit.h */,
+				DD92DFCB1A23FFE2000D8539 /* Supporting Files */,
+				DD92DFEB1A2401F8000D8539 /* DataAccess.swift */,
+			);
+			path = DataKit;
+			sourceTree = "<group>";
+		};
+		DD92DFCB1A23FFE2000D8539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFCC1A23FFE2000D8539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD92DFD91A23FFE2000D8539 /* DataKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFDC1A23FFE2000D8539 /* DataKitTests.swift */,
+				DD92DFDA1A23FFE2000D8539 /* Supporting Files */,
+			);
+			path = DataKitTests;
+			sourceTree = "<group>";
+		};
+		DD92DFDA1A23FFE2000D8539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD92DFDB1A23FFE2000D8539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD92DFC61A23FFE2000D8539 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFCE1A23FFE2000D8539 /* DataKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DD92DF731A23FD50000D8539 /* CoreDataWatch */ = {
@@ -128,10 +345,14 @@
 				DD92DF701A23FD50000D8539 /* Sources */,
 				DD92DF711A23FD50000D8539 /* Frameworks */,
 				DD92DF721A23FD50000D8539 /* Resources */,
+				DD92DFC31A23FD7A000D8539 /* Embed App Extensions */,
+				DD92DFE51A23FFE2000D8539 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DD92DFBB1A23FD7A000D8539 /* PBXTargetDependency */,
+				DD92DFDF1A23FFE2000D8539 /* PBXTargetDependency */,
 			);
 			name = CoreDataWatch;
 			productName = CoreDataWatch;
@@ -156,6 +377,76 @@
 			productReference = DD92DF8E1A23FD50000D8539 /* CoreDataWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DD92DFA11A23FD7A000D8539 /* CoreDataWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD92DFC01A23FD7A000D8539 /* Build configuration list for PBXNativeTarget "CoreDataWatch WatchKit Extension" */;
+			buildPhases = (
+				DD92DF9E1A23FD7A000D8539 /* Sources */,
+				DD92DF9F1A23FD7A000D8539 /* Frameworks */,
+				DD92DFA01A23FD7A000D8539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD92DFB21A23FD7A000D8539 /* PBXTargetDependency */,
+			);
+			name = "CoreDataWatch WatchKit Extension";
+			productName = "CoreDataWatch WatchKit Extension";
+			productReference = DD92DFA21A23FD7A000D8539 /* CoreDataWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DD92DFAE1A23FD7A000D8539 /* CoreDataWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD92DFBD1A23FD7A000D8539 /* Build configuration list for PBXNativeTarget "CoreDataWatch Watch App" */;
+			buildPhases = (
+				DD92DFAD1A23FD7A000D8539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreDataWatch Watch App";
+			productName = "CoreDataWatch Watch App";
+			productReference = DD92DFAF1A23FD7A000D8539 /* CoreDataWatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		DD92DFC81A23FFE2000D8539 /* DataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD92DFE21A23FFE2000D8539 /* Build configuration list for PBXNativeTarget "DataKit" */;
+			buildPhases = (
+				DD92DFC41A23FFE2000D8539 /* Sources */,
+				DD92DFC51A23FFE2000D8539 /* Frameworks */,
+				DD92DFC61A23FFE2000D8539 /* Headers */,
+				DD92DFC71A23FFE2000D8539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataKit;
+			productName = DataKit;
+			productReference = DD92DFC91A23FFE2000D8539 /* DataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD92DFD21A23FFE2000D8539 /* DataKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD92DFE61A23FFE2000D8539 /* Build configuration list for PBXNativeTarget "DataKitTests" */;
+			buildPhases = (
+				DD92DFCF1A23FFE2000D8539 /* Sources */,
+				DD92DFD01A23FFE2000D8539 /* Frameworks */,
+				DD92DFD11A23FFE2000D8539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD92DFD61A23FFE2000D8539 /* PBXTargetDependency */,
+				DD92DFD81A23FFE2000D8539 /* PBXTargetDependency */,
+			);
+			name = DataKitTests;
+			productName = DataKitTests;
+			productReference = DD92DFD31A23FFE2000D8539 /* DataKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,8 +458,33 @@
 				TargetAttributes = {
 					DD92DF731A23FD50000D8539 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 54D6L93E3U;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DD92DF8D1A23FD50000D8539 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DD92DF731A23FD50000D8539;
+					};
+					DD92DFA11A23FD7A000D8539 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 54D6L93E3U;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DD92DFAE1A23FD7A000D8539 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DD92DFC81A23FFE2000D8539 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DD92DFD21A23FFE2000D8539 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = DD92DF731A23FD50000D8539;
 					};
@@ -189,6 +505,10 @@
 			targets = (
 				DD92DF731A23FD50000D8539 /* CoreDataWatch */,
 				DD92DF8D1A23FD50000D8539 /* CoreDataWatchTests */,
+				DD92DFA11A23FD7A000D8539 /* CoreDataWatch WatchKit Extension */,
+				DD92DFAE1A23FD7A000D8539 /* CoreDataWatch Watch App */,
+				DD92DFC81A23FFE2000D8539 /* DataKit */,
+				DD92DFD21A23FFE2000D8539 /* DataKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +525,38 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DD92DF8C1A23FD50000D8539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFA01A23FD7A000D8539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFB01A23FD7A000D8539 /* CoreDataWatch Watch App.app in Resources */,
+				DD92DFAC1A23FD7A000D8539 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFAD1A23FD7A000D8539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFB71A23FD7A000D8539 /* Interface.storyboard in Resources */,
+				DD92DFB91A23FD7A000D8539 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFC71A23FFE2000D8539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFD11A23FFE2000D8539 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,6 +585,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD92DF9E1A23FD7A000D8539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFED1A240671000D8539 /* CoreDataWatch.xcdatamodeld in Sources */,
+				DD92DFAA1A23FD7A000D8539 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFC41A23FFE2000D8539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFEC1A2401F8000D8539 /* DataAccess.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD92DFCF1A23FFE2000D8539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD92DFDD1A23FFE2000D8539 /* DataKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +617,31 @@
 			isa = PBXTargetDependency;
 			target = DD92DF731A23FD50000D8539 /* CoreDataWatch */;
 			targetProxy = DD92DF8F1A23FD50000D8539 /* PBXContainerItemProxy */;
+		};
+		DD92DFB21A23FD7A000D8539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD92DFAE1A23FD7A000D8539 /* CoreDataWatch Watch App */;
+			targetProxy = DD92DFB11A23FD7A000D8539 /* PBXContainerItemProxy */;
+		};
+		DD92DFBB1A23FD7A000D8539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD92DFA11A23FD7A000D8539 /* CoreDataWatch WatchKit Extension */;
+			targetProxy = DD92DFBA1A23FD7A000D8539 /* PBXContainerItemProxy */;
+		};
+		DD92DFD61A23FFE2000D8539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD92DFC81A23FFE2000D8539 /* DataKit */;
+			targetProxy = DD92DFD51A23FFE2000D8539 /* PBXContainerItemProxy */;
+		};
+		DD92DFD81A23FFE2000D8539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD92DF731A23FD50000D8539 /* CoreDataWatch */;
+			targetProxy = DD92DFD71A23FFE2000D8539 /* PBXContainerItemProxy */;
+		};
+		DD92DFDF1A23FFE2000D8539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD92DFC81A23FFE2000D8539 /* DataKit */;
+			targetProxy = DD92DFDE1A23FFE2000D8539 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -346,9 +748,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreDataWatch/CoreDataWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CoreDataWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -356,9 +763,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreDataWatch/CoreDataWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CoreDataWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -396,6 +808,153 @@
 			};
 			name = Release;
 		};
+		DD92DFBE1A23FD7A000D8539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CoreDataWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CoreDataWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DD92DFBF1A23FD7A000D8539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = CoreDataWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "CoreDataWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		DD92DFC11A23FD7A000D8539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CoreDataWatch WatchKit Extension/CoreDataWatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreDataWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD92DFC21A23FD7A000D8539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CoreDataWatch WatchKit Extension/CoreDataWatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "CoreDataWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD92DFE31A23FFE2000D8539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD92DFE41A23FFE2000D8539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD92DFE71A23FFE2000D8539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataWatch.app/CoreDataWatch";
+			};
+			name = Debug;
+		};
+		DD92DFE81A23FFE2000D8539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataWatch.app/CoreDataWatch";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,6 +980,38 @@
 			buildConfigurations = (
 				DD92DF9C1A23FD50000D8539 /* Debug */,
 				DD92DF9D1A23FD50000D8539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD92DFBD1A23FD7A000D8539 /* Build configuration list for PBXNativeTarget "CoreDataWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD92DFBE1A23FD7A000D8539 /* Debug */,
+				DD92DFBF1A23FD7A000D8539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD92DFC01A23FD7A000D8539 /* Build configuration list for PBXNativeTarget "CoreDataWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD92DFC11A23FD7A000D8539 /* Debug */,
+				DD92DFC21A23FD7A000D8539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD92DFE21A23FFE2000D8539 /* Build configuration list for PBXNativeTarget "DataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD92DFE31A23FFE2000D8539 /* Debug */,
+				DD92DFE41A23FFE2000D8539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD92DFE61A23FFE2000D8539 /* Build configuration list for PBXNativeTarget "DataKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD92DFE71A23FFE2000D8539 /* Debug */,
+				DD92DFE81A23FFE2000D8539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

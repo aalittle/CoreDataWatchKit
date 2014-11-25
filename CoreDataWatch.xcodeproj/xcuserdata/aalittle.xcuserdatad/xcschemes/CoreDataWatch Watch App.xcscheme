@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD92DF731A23FD50000D8539"
-               BuildableName = "CoreDataWatch.app"
-               BlueprintName = "CoreDataWatch"
+               BlueprintIdentifier = "DD92DFAE1A23FD7A000D8539"
+               BuildableName = "CoreDataWatch Watch App.app"
+               BlueprintName = "CoreDataWatch Watch App"
                ReferencedContainer = "container:CoreDataWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD92DF8D1A23FD50000D8539"
-               BuildableName = "CoreDataWatchTests.xctest"
-               BlueprintName = "CoreDataWatchTests"
+               BlueprintIdentifier = "DD92DFA11A23FD7A000D8539"
+               BuildableName = "CoreDataWatch WatchKit Extension.appex"
+               BlueprintName = "CoreDataWatch WatchKit Extension"
+               ReferencedContainer = "container:CoreDataWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD92DF731A23FD50000D8539"
+               BuildableName = "CoreDataWatch.app"
+               BlueprintName = "CoreDataWatch"
                ReferencedContainer = "container:CoreDataWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,16 +74,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD92DF8D1A23FD50000D8539"
-               BuildableName = "CoreDataWatchTests.xctest"
-               BlueprintName = "CoreDataWatchTests"
-               ReferencedContainer = "container:CoreDataWatch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD92DFD21A23FFE2000D8539"
                BuildableName = "DataKitTests.xctest"
                BlueprintName = "DataKitTests"
@@ -80,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD92DF731A23FD50000D8539"
-            BuildableName = "CoreDataWatch.app"
-            BlueprintName = "CoreDataWatch"
+            BlueprintIdentifier = "DD92DFAE1A23FD7A000D8539"
+            BuildableName = "CoreDataWatch Watch App.app"
+            BlueprintName = "CoreDataWatch Watch App"
             ReferencedContainer = "container:CoreDataWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,16 +100,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/CoreDataWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD92DF731A23FD50000D8539"
-            BuildableName = "CoreDataWatch.app"
-            BlueprintName = "CoreDataWatch"
+            BlueprintIdentifier = "DD92DFAE1A23FD7A000D8539"
+            BuildableName = "CoreDataWatch Watch App.app"
+            BlueprintName = "CoreDataWatch Watch App"
             ReferencedContainer = "container:CoreDataWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD92DFAE1A23FD7A000D8539"
+            BuildableName = "CoreDataWatch Watch App.app"
+            BlueprintName = "CoreDataWatch Watch App"
+            ReferencedContainer = "container:CoreDataWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -115,16 +130,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/CoreDataWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD92DF731A23FD50000D8539"
-            BuildableName = "CoreDataWatch.app"
-            BlueprintName = "CoreDataWatch"
+            BlueprintIdentifier = "DD92DFAE1A23FD7A000D8539"
+            BuildableName = "CoreDataWatch Watch App.app"
+            BlueprintName = "CoreDataWatch Watch App"
             ReferencedContainer = "container:CoreDataWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD92DFAE1A23FD7A000D8539"
+            BuildableName = "CoreDataWatch Watch App.app"
+            BlueprintName = "CoreDataWatch Watch App"
+            ReferencedContainer = "container:CoreDataWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

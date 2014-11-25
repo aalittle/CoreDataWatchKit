@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CoreDataWatch Watch App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>CoreDataWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>DataKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>DD92DF8D1A23FD50000D8539</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD92DFAE1A23FD7A000D8539</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD92DFC81A23FFE2000D8539</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD92DFD21A23FFE2000D8539</key>
 		<dict>
 			<key>primary</key>
 			<true/>
